@@ -17,5 +17,5 @@ The repo is structured as:
 
 ## Statement on LLM usage
 
-Se the file usage.txt in `other/llm`
+See the file usage.txt in `other/llm`
 
