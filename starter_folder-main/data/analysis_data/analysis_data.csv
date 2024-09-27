@@ -1,0 +1,1130 @@
+RowID,Year,BranchName,AnnualNumberofVisits
+1,2012,Albion,522309
+2,2012,Albert Campbell,214076
+3,2012,Alderwood,88065
+4,2012,Agincourt,434320
+5,2012,Armour Heights,67184
+6,2012,Annette Street,96885
+7,2012,Amesbury Park,74678
+8,2012,Brookbanks,61252
+9,2012,Black Creek,95843
+10,2012,Bendale,62326
+11,2012,Beaches,235687
+12,2012,Barbara Frum,353141
+13,2012,Bookmobile One,39749
+14,2012,Bloor/Gladstone,373581
+15,2012,Brentwood,40479
+16,2012,Bridlewood,392397
+17,2012,Burrows Hall,151087
+18,2012,Cliffcrest,89195
+19,2012,Centennial,143138
+20,2012,Cedarbrae,415753
+21,2012,City Hall,215588
+22,2012,North York Central Library,1493796
+23,2012,College/Shaw,120622
+24,2012,Danforth/Coxwell,168594
+25,2012,Don Mills,248880
+26,2012,Downsview,339600
+27,2012,Deer Park,229132
+28,2012,Dawes Road,133892
+29,2012,Davenport,40644
+30,2012,Dufferin/St. Clair,117090
+31,2012,Eatonville,205341
+32,2012,Elmbrook Park,54894
+33,2012,Evelyn Gregory,51552
+34,2012,Ethennonnhawahstihnen',188863
+35,2012,Eglinton Square,220158
+36,2012,Forest Hill,93424
+37,2012,Flemingdon Park,150663
+38,2012,Fairview,442214
+39,2012,Gerrard/Ashdale,104885
+40,2012,Goldhawk Park,205973
+41,2012,Guildwood,58289
+42,2012,Humber Bay,59603
+43,2012,Highland Creek,80642
+44,2012,Hillcrest,150059
+45,2012,High Park,164444
+46,2012,Humber Summit,51300
+47,2012,Humberwood,209196
+48,2012,Jane/Dundas,165105
+49,2012,Jones,87163
+50,2012,Jane/Sheppard,95315
+51,2012,Kennedy/Eglinton,117782
+52,2012,Long Branch,53681
+53,2012,Leaside,134816
+54,2012,Locke,181942
+55,2012,Lillian H. Smith,370557
+56,2012,Main Street,127129
+57,2012,Malvern,358262
+58,2012,Maria A. Shchuka,242057
+59,2012,McGregor Park,132919
+60,2012,Merril Collection,7612
+61,2012,Mimico Centennial,93400
+62,2012,Mount Pleasant,66278
+63,2012,Maryvale,168413
+64,2012,Morningside,119263
+65,2012,Northern District,407488
+66,2012,Northern Elms,39158
+67,2012,New Toronto,88266
+68,2012,Osborne Collection,9372
+69,2012,Oakwood Village Library and Arts Centre,79205
+70,2012,Pape/Danforth,279483
+71,2012,Perth/Dupont,35235
+72,2012,Parkdale,315734
+73,2012,Parliament Street,205094
+74,2012,Palmerston,119602
+75,2012,Port Union,134834
+76,2012,Pleasant View,103343
+77,2012,Queen/Saulter,60209
+78,2012,Riverdale,231360
+79,2012,Richview,421962
+80,2012,Runnymede,325843
+81,2012,Rexdale,45502
+82,2012,Sanderson,352949
+83,2012,Sunnybrook Hospital,21484
+84,2012,St. Clair/Silverthorn,41997
+85,2012,St. James Town,198384
+86,2012,St. Lawrence,99144
+87,2012,Spadina Road,92352
+88,2012,Steeles,210047
+89,2012,Swansea Memorial,20256
+90,2012,S. Walter Stewart,254166
+91,2012,Taylor Memorial,40929
+92,2012,Thorncliffe,205064
+93,2012,Todmorden Room,21401
+94,2012,Toronto Reference Library,1137016
+95,2012,Victoria Village,65984
+96,2012,Weston,84777
+97,2012,Woodview Park,35561
+98,2012,Woodside Square,488396
+99,2012,Wychwood,107079
+100,2012,Yorkville,208985
+101,2012,York Woods,212775
+102,2013,Albion,432525
+103,2013,Albert Campbell,222012
+104,2013,Alderwood,96088
+105,2013,Agincourt,451500
+106,2013,Armour Heights,68925
+107,2013,Annette Street,79655
+108,2013,Amesbury Park,53300
+109,2013,Brookbanks,60825
+110,2013,Black Creek,82713
+111,2013,Bendale,72446
+112,2013,Beaches,215213
+113,2013,Barbara Frum,364175
+114,2013,Bookmobile One,31488
+115,2013,Bloor/Gladstone,367025
+116,2013,Brentwood,247650
+117,2013,Bridlewood,399650
+118,2013,Burrows Hall,144500
+119,2013,Cliffcrest,80800
+120,2013,Centennial,138425
+121,2013,Cedarbrae,405263
+122,2013,City Hall,219213
+123,2013,North York Central Library,1690775
+124,2013,College/Shaw,112175
+125,2013,Danforth/Coxwell,158188
+126,2013,Don Mills,239838
+127,2013,Downsview,153000
+128,2013,Deer Park,225188
+129,2013,Dawes Road,123463
+130,2013,Davenport,39263
+131,2013,Dufferin/St. Clair,121688
+132,2013,Eatonville,214193
+133,2013,Elmbrook Park,55800
+134,2013,Evelyn Gregory,60925
+135,2013,Ethennonnhawahstihnen',205213
+136,2013,Eglinton Square,217688
+137,2013,Forest Hill,90188
+138,2013,Flemingdon Park,150363
+139,2013,Gerrard/Ashdale,99125
+140,2013,Goldhawk Park,184713
+141,2013,Guildwood,51138
+142,2013,Humber Bay,53538
+143,2013,Highland Creek,60375
+144,2013,Hillcrest,222063
+145,2013,High Park,235163
+146,2013,Humber Summit,48263
+147,2013,Humberwood,212738
+148,2013,Jane/Dundas,168775
+149,2013,Jones,75250
+150,2013,Jane/Sheppard,115425
+151,2013,Kennedy/Eglinton,117338
+152,2013,Long Branch,54113
+153,2013,Leaside,160863
+154,2013,Locke,179513
+155,2013,Lillian H. Smith,354888
+156,2013,Main Street,107346
+157,2013,Malvern,385150
+158,2013,Maria A. Shchuka,208021
+159,2013,McGregor Park,128400
+160,2013,Mount Dennis,57388
+161,2013,Merril Collection,8300
+162,2013,Mimico Centennial,83468
+163,2013,Mount Pleasant,72363
+164,2013,Maryvale,150788
+165,2013,Morningside,135475
+166,2013,Northern District,328400
+167,2013,Northern Elms,41188
+168,2013,New Toronto,88600
+169,2013,Osborne Collection,5825
+170,2013,Oakwood Village Library and Arts Centre,84013
+171,2013,Pape/Danforth,257275
+172,2013,Perth/Dupont,40100
+173,2013,Parkdale,345738
+174,2013,Parliament Street,208063
+175,2013,Palmerston,115625
+176,2013,Port Union,127775
+177,2013,Pleasant View,186250
+178,2013,Queen/Saulter,70725
+179,2013,Riverdale,226400
+180,2013,Richview,409390
+181,2013,Runnymede,283238
+182,2013,Rexdale,46325
+183,2013,Sanderson,290300
+184,2013,Sunnybrook Hospital,19200
+185,2013,St. Clair/Silverthorn,31100
+186,2013,St. James Town,192963
+187,2013,St. Lawrence,114900
+188,2013,Spadina Road,78583
+189,2013,Steeles,160538
+190,2013,Swansea Memorial,19688
+191,2013,S. Walter Stewart,262125
+192,2013,Taylor Memorial,36375
+193,2013,Thorncliffe,203338
+194,2013,Todmorden Room,17500
+195,2013,Toronto Reference Library,1226659
+196,2013,Victoria Village,41950
+197,2013,Weston,87500
+198,2013,Woodview Park,30575
+199,2013,Woodside Square,471800
+200,2013,Wychwood,114613
+201,2013,Yorkville,191050
+202,2013,York Woods,208388
+203,2014,Albion,401819
+204,2014,Albert Campbell,285428
+205,2014,Alderwood,102875
+206,2014,Agincourt,424457
+207,2014,Armour Heights,67675
+208,2014,Annette Street,95263
+209,2014,Amesbury Park,56313
+210,2014,Brookbanks,93375
+211,2014,Black Creek,91963
+212,2014,Bendale,72650
+213,2014,Beaches,186600
+214,2014,Barbara Frum,356077
+215,2014,Bookmobile One,23813
+216,2014,Bloor/Gladstone,355250
+217,2014,Brentwood,234008
+218,2014,Bridlewood,420963
+219,2014,Burrows Hall,107200
+220,2014,Cliffcrest,80175
+221,2014,Centennial,125613
+222,2014,Cedarbrae,366123
+223,2014,City Hall,201288
+224,2014,North York Central Library,1561767
+225,2014,College/Shaw,112413
+226,2014,Danforth/Coxwell,146013
+227,2014,Don Mills,280151
+228,2014,Downsview,168733
+229,2014,Deer Park,275813
+230,2014,Dawes Road,121325
+231,2014,Davenport,42150
+232,2014,Dufferin/St. Clair,106788
+233,2014,Eatonville,223854
+234,2014,Elmbrook Park,49750
+235,2014,Evelyn Gregory,56200
+236,2014,Ethennonnhawahstihnen',146697
+237,2014,Eglinton Square,205025
+238,2014,Forest Hill,93575
+239,2014,Fort York,96613
+240,2014,Flemingdon Park,146247
+241,2014,Fairview,191404
+242,2014,Gerrard/Ashdale,95775
+243,2014,Goldhawk Park,202833
+244,2014,Guildwood,45950
+245,2014,Humber Bay,66263
+246,2014,Highland Creek,81538
+247,2014,Hillcrest,128975
+248,2014,High Park,194450
+249,2014,Humber Summit,49413
+250,2014,Humberwood,161325
+251,2014,Jane/Dundas,158938
+252,2014,Jones,80275
+253,2014,Jane/Sheppard,94250
+254,2014,Kennedy/Eglinton,106838
+255,2014,Long Branch,55625
+256,2014,Leaside,144900
+257,2014,Locke,179275
+258,2014,Lillian H. Smith,352151
+259,2014,Main Street,123450
+260,2014,Malvern,347883
+261,2014,Maria A. Shchuka,197358
+262,2014,McGregor Park,123663
+263,2014,Mount Dennis,82625
+264,2014,Merril Collection,9163
+265,2014,Mimico Centennial,94434
+266,2014,Mount Pleasant,63575
+267,2014,Maryvale,151875
+268,2014,Morningside,124575
+269,2014,Northern District,299729
+270,2014,Northern Elms,34300
+271,2014,New Toronto,91293
+272,2014,Osborne Collection,6800
+273,2014,Oakwood Village Library and Arts Centre,86450
+274,2014,Pape/Danforth,239357
+275,2014,Perth/Dupont,43838
+276,2014,Parkdale,348589
+277,2014,Parliament Street,198530
+278,2014,Palmerston,109425
+279,2014,Port Union,117025
+280,2014,Pleasant View,100388
+281,2014,Queen/Saulter,65850
+282,2014,Riverdale,203900
+283,2014,Richview,553673
+284,2014,Runnymede,364788
+285,2014,Rexdale,51613
+286,2014,Sanderson,268350
+287,2014,Sunnybrook Hospital,15950
+288,2014,St. Clair/Silverthorn,31188
+289,2014,St. James Town,182788
+290,2014,St. Lawrence,110738
+291,2014,Spadina Road,78683
+292,2014,Steeles,145800
+293,2014,Swansea Memorial,17575
+294,2014,S. Walter Stewart,254470
+295,2014,Taylor Memorial,36263
+296,2014,Thorncliffe,194913
+297,2014,Todmorden Room,25938
+298,2014,Toronto Reference Library,1247697
+299,2014,Victoria Village,37750
+300,2014,Weston,94875
+301,2014,Woodview Park,37725
+302,2014,Woodside Square,439963
+303,2014,Wychwood,105900
+304,2014,Yorkville,177013
+305,2014,York Woods,225983
+306,2015,Albion,194587
+307,2015,Albert Campbell,277118
+308,2015,Alderwood,101250
+309,2015,Agincourt,397421
+310,2015,Armour Heights,67038
+311,2015,Annette Street,117375
+312,2015,Amesbury Park,51313
+313,2015,Brookbanks,75938
+314,2015,Black Creek,89425
+315,2015,Bendale,65550
+316,2015,Beaches,185450
+317,2015,Barbara Frum,264647
+318,2015,Bookmobile One,18900
+319,2015,Bloor/Gladstone,362150
+320,2015,Brentwood,232857
+321,2015,Bridlewood,380100
+322,2015,Burrows Hall,99100
+323,2015,Cliffcrest,79300
+324,2015,Centennial,118613
+325,2015,Cedarbrae,352780
+326,2015,City Hall,197250
+327,2015,North York Central Library,1538044
+328,2015,College/Shaw,123950
+329,2015,Danforth/Coxwell,158113
+330,2015,Don Mills,267097
+331,2015,Downsview,174447
+332,2015,Deer Park,247425
+333,2015,Dawes Road,114925
+334,2015,Davenport,39975
+335,2015,Dufferin/St. Clair,105000
+336,2015,Eatonville,226512
+337,2015,Elmbrook Park,45000
+338,2015,Evelyn Gregory,52900
+339,2015,Ethennonnhawahstihnen',171555
+340,2015,Eglinton Square,202550
+341,2015,Forest Hill,101125
+342,2015,Fort York,180200
+343,2015,Flemingdon Park,191338
+344,2015,Fairview,426072
+345,2015,Gerrard/Ashdale,94525
+346,2015,Goldhawk Park,179312
+347,2015,Guildwood,45763
+348,2015,Humber Bay,51825
+349,2015,Highland Creek,69713
+350,2015,Hillcrest,108500
+351,2015,High Park,185788
+352,2015,Humber Summit,46888
+353,2015,Humberwood,109813
+354,2015,Jane/Dundas,150800
+355,2015,Jones,75850
+356,2015,Jane/Sheppard,103250
+357,2015,Kennedy/Eglinton,110675
+358,2015,Long Branch,53775
+359,2015,Leaside,147050
+360,2015,Locke,169263
+361,2015,Lillian H. Smith,317780
+362,2015,Main Street,116263
+363,2015,Malvern,362833
+364,2015,Maria A. Shchuka,205793
+365,2015,McGregor Park,125177
+366,2015,Mount Dennis,80588
+367,2015,Merril Collection,8113
+368,2015,Mimico Centennial,94488
+369,2015,Mount Pleasant,62863
+370,2015,Maryvale,167575
+371,2015,Morningside,91163
+372,2015,Northern District,306319
+373,2015,Northern Elms,35163
+374,2015,New Toronto,73324
+375,2015,Osborne Collection,4813
+376,2015,Oakwood Village Library and Arts Centre,72713
+377,2015,Pape/Danforth,229683
+378,2015,Perth/Dupont,34938
+379,2015,Parkdale,430586
+380,2015,Parliament Street,245031
+381,2015,Palmerston,93588
+382,2015,Port Union,107850
+383,2015,Pleasant View,74638
+384,2015,Queen/Saulter,58850
+385,2015,Riverdale,198713
+386,2015,Richview,422923
+387,2015,Runnymede,473488
+388,2015,Rexdale,53825
+389,2015,Sanderson,250775
+390,2015,Sunnybrook Hospital,15550
+391,2015,Scarborough Civic Centre,83038
+392,2015,St. Clair/Silverthorn,29788
+393,2015,St. James Town,177063
+394,2015,St. Lawrence,103806
+395,2015,Spadina Road,88788
+396,2015,Steeles,161988
+397,2015,Swansea Memorial,17988
+398,2015,S. Walter Stewart,244873
+399,2015,Taylor Memorial,41388
+400,2015,Thorncliffe,189550
+401,2015,Todmorden Room,28400
+402,2015,Toronto Reference Library,1310779
+403,2015,Victoria Village,32275
+404,2015,Weston,89225
+405,2015,Woodview Park,41450
+406,2015,Woodside Square,405225
+407,2015,Wychwood,116525
+408,2015,Yorkville,157850
+409,2015,York Woods,220492
+410,2016,Albion,208251
+411,2016,Albert Campbell,310244
+412,2016,Alderwood,99865
+413,2016,Agincourt,313157
+414,2016,Armour Heights,67355
+415,2016,Annette Street,114135
+416,2016,Amesbury Park,56483
+417,2016,Brookbanks,71442
+418,2016,Black Creek,107969
+419,2016,Bendale,57910
+420,2016,Beaches,187288
+421,2016,Barbara Frum,234632
+422,2016,Bookmobile One,18828
+423,2016,Bloor/Gladstone,364124
+424,2016,Brentwood,248601
+425,2016,Bridlewood,423004
+426,2016,Burrows Hall,92664
+427,2016,Cliffcrest,69148
+428,2016,Centennial,124345
+429,2016,Cedarbrae,363118
+430,2016,City Hall,198786
+431,2016,North York Central Library,1347718
+432,2016,College/Shaw,103681
+433,2016,Danforth/Coxwell,173523
+434,2016,Don Mills,258252
+435,2016,Downsview,206115
+436,2016,Deer Park,281764
+437,2016,Dawes Road,100748
+438,2016,Davenport,35844
+439,2016,Dufferin/St. Clair,104307
+440,2016,Eatonville,239521
+441,2016,Elmbrook Park,47231
+442,2016,Evelyn Gregory,47549
+443,2016,Ethennonnhawahstihnen',175117
+444,2016,Eglinton Square,106859
+445,2016,Forest Hill,108116
+446,2016,Fort York,179705
+447,2016,Flemingdon Park,176366
+448,2016,Fairview,518674
+449,2016,Gerrard/Ashdale,98279
+450,2016,Goldhawk Park,178752
+451,2016,Guildwood,59634
+452,2016,Humber Bay,45753
+453,2016,Highland Creek,63785
+454,2016,Hillcrest,119386
+455,2016,High Park,204908
+456,2016,Humber Summit,58365
+457,2016,Humberwood,138709
+458,2016,Jane/Dundas,158532
+459,2016,Jones,82480
+460,2016,Jane/Sheppard,94976
+461,2016,Kennedy/Eglinton,87203
+462,2016,Long Branch,57181
+463,2016,Leaside,157136
+464,2016,Locke,188439
+465,2016,Lillian H. Smith,331193
+466,2016,Main Street,113091
+467,2016,Malvern,348081
+468,2016,Maria A. Shchuka,231078
+469,2016,McGregor Park,134570
+470,2016,Mount Dennis,84210
+471,2016,Merril Collection,10148
+472,2016,Mimico Centennial,99232
+473,2016,Mount Pleasant,66950
+474,2016,Maryvale,203955
+475,2016,Morningside,101804
+476,2016,Northern District,364658
+477,2016,Northern Elms,33536
+478,2016,New Toronto,59758
+479,2016,Osborne Collection,12416
+480,2016,Oakwood Village Library and Arts Centre,85169
+481,2016,Pape/Danforth,236930
+482,2016,Perth/Dupont,46514
+483,2016,Parkdale,352888
+484,2016,Parliament Street,238566
+485,2016,Palmerston,107896
+486,2016,Port Union,98121
+487,2016,Pleasant View,78629
+488,2016,Queen/Saulter,66399
+489,2016,Riverdale,195261
+490,2016,Richview,296948
+491,2016,Runnymede,287359
+492,2016,Rexdale,51075
+493,2016,Sanderson,234299
+494,2016,Sunnybrook Hospital,18673
+495,2016,Scarborough Civic Centre,175181
+496,2016,St. Clair/Silverthorn,30566
+497,2016,St. James Town,174275
+498,2016,St. Lawrence,115189
+499,2016,Spadina Road,86768
+500,2016,Steeles,168942
+501,2016,Swansea Memorial,20580
+502,2016,S. Walter Stewart,251375
+503,2016,Taylor Memorial,40691
+504,2016,Thorncliffe,215864
+505,2016,Todmorden Room,25246
+506,2016,Toronto Reference Library,1462894
+507,2016,Victoria Village,42402
+508,2016,Weston,99950
+509,2016,Woodview Park,54098
+510,2016,Woodside Square,441229
+511,2016,Wychwood,143043
+512,2016,Yorkville,148942
+513,2016,York Woods,209768
+514,2017,Albion,260950
+515,2017,Albert Campbell,356374
+516,2017,Alderwood,97083
+517,2017,Agincourt,326233
+518,2017,Armour Heights,73163
+519,2017,Annette Street,126645
+520,2017,Amesbury Park,25865
+521,2017,Brookbanks,73732
+522,2017,Black Creek,102627
+523,2017,Bendale,50632
+524,2017,Beaches,213974
+525,2017,Barbara Frum,248990
+526,2017,Bookmobile One,16034
+527,2017,Bloor/Gladstone,360508
+528,2017,Brentwood,267983
+529,2017,Bridlewood,429296
+530,2017,Burrows Hall,84899
+531,2017,Cliffcrest,65757
+532,2017,Centennial,177412
+533,2017,Cedarbrae,384227
+534,2017,City Hall,195475
+535,2017,North York Central Library,342972
+536,2017,College/Shaw,103458
+537,2017,Danforth/Coxwell,175012
+538,2017,Don Mills,257738
+539,2017,Downsview,230231
+540,2017,Deer Park,281482
+541,2017,Dawes Road,96392
+542,2017,Davenport,34954
+543,2017,Dufferin/St. Clair,103822
+544,2017,Eatonville,238477
+545,2017,Elmbrook Park,48985
+546,2017,Evelyn Gregory,48477
+547,2017,Ethennonnhawahstihnen',226109
+548,2017,Eglinton Square,131313
+549,2017,Forest Hill,117222
+550,2017,Fort York,169371
+551,2017,Flemingdon Park,156265
+552,2017,Fairview,566666
+553,2017,Gerrard/Ashdale,104259
+554,2017,Goldhawk Park,175028
+555,2017,Guildwood,62890
+556,2017,Humber Bay,46188
+557,2017,Highland Creek,60785
+558,2017,Hillcrest,116053
+559,2017,High Park,203854
+560,2017,Humber Summit,24575
+561,2017,Humberwood,120153
+562,2017,Jane/Dundas,163511
+563,2017,Jones,81100
+564,2017,Jane/Sheppard,87221
+565,2017,Kennedy/Eglinton,92895
+566,2017,Long Branch,50700
+567,2017,Leaside,157550
+568,2017,Locke,215365
+569,2017,Lillian H. Smith,319555
+570,2017,Main Street,120433
+571,2017,Malvern,331665
+572,2017,Maria A. Shchuka,234462
+573,2017,McGregor Park,127230
+574,2017,Mount Dennis,88386
+575,2017,Merril Collection,13069
+576,2017,Mimico Centennial,92721
+577,2017,Mount Pleasant,59793
+578,2017,Maryvale,157983
+579,2017,Morningside,100674
+580,2017,Northern District,391543
+581,2017,Northern Elms,34143
+582,2017,New Toronto,59211
+583,2017,Osborne Collection,16250
+584,2017,Oakwood Village Library and Arts Centre,94240
+585,2017,Pape/Danforth,233308
+586,2017,Perth/Dupont,53451
+587,2017,Parkdale,337974
+588,2017,Parliament Street,227666
+589,2017,Palmerston,112115
+590,2017,Port Union,86237
+591,2017,Pleasant View,79549
+592,2017,Queen/Saulter,71094
+593,2017,Riverdale,194268
+594,2017,Richview,252083
+595,2017,Runnymede,151817
+596,2017,Rexdale,50646
+597,2017,Sanderson,228745
+598,2017,Sunnybrook Hospital,20808
+599,2017,Scarborough Civic Centre,193914
+600,2017,St. Clair/Silverthorn,24915
+601,2017,St. James Town,169242
+602,2017,St. Lawrence,118778
+603,2017,Spadina Road,85114
+604,2017,Steeles,156659
+605,2017,Swansea Memorial,38627
+606,2017,S. Walter Stewart,262097
+607,2017,Taylor Memorial,35466
+608,2017,Thorncliffe,197227
+609,2017,Todmorden Room,28939
+610,2017,Toronto Reference Library,1604864
+611,2017,Victoria Village,43446
+612,2017,Weston,92943
+613,2017,Woodview Park,58297
+614,2017,Woodside Square,402862
+615,2017,Wychwood,133540
+616,2017,Yorkville,152520
+617,2017,York Woods,200531
+618,2018,Albion,327977
+619,2018,Albert Campbell,340522
+620,2018,Alderwood,100886
+621,2018,Agincourt,368837
+622,2018,Armour Heights,73829
+623,2018,Annette Street,102239
+624,2018,Amesbury Park,51242
+625,2018,Brookbanks,73308
+626,2018,Black Creek,98278
+627,2018,Bendale,51489
+628,2018,Beaches,207052
+629,2018,Barbara Frum,246900
+630,2018,Bookmobile One,13516
+631,2018,Bloor/Gladstone,369395
+632,2018,Brentwood,257933
+633,2018,Bridlewood,434621
+634,2018,Burrows Hall,81913
+635,2018,Cliffcrest,65876
+636,2018,Centennial,157112
+637,2018,Cedarbrae,355089
+638,2018,City Hall,197005
+639,2018,North York Central Library,830485
+640,2018,College/Shaw,101932
+641,2018,Danforth/Coxwell,169976
+642,2018,Don Mills,253090
+643,2018,Downsview,231580
+644,2018,Deer Park,289666
+645,2018,Dawes Road,89637
+646,2018,Davenport,37506
+647,2018,Dufferin/St. Clair,111761
+648,2018,Eatonville,232419
+649,2018,Elmbrook Park,45807
+650,2018,Evelyn Gregory,46693
+651,2018,Ethennonnhawahstihnen',202545
+652,2018,Eglinton Square,251189
+653,2018,Forest Hill,113245
+654,2018,Fort York,190668
+655,2018,Flemingdon Park,139776
+656,2018,Fairview,546827
+657,2018,Gerrard/Ashdale,99576
+658,2018,Goldhawk Park,164412
+659,2018,Guildwood,57017
+660,2018,Humber Bay,44973
+661,2018,Highland Creek,57664
+662,2018,Hillcrest,116494
+663,2018,High Park,200533
+664,2018,Humber Summit,35770
+665,2018,Humberwood,101360
+666,2018,Jane/Dundas,154666
+667,2018,Jones,78623
+668,2018,Jane/Sheppard,83508
+669,2018,Kennedy/Eglinton,81014
+670,2018,Long Branch,53829
+671,2018,Leaside,162265
+672,2018,Locke,206804
+673,2018,Lillian H. Smith,327094
+674,2018,Main Street,122506
+675,2018,Malvern,294944
+676,2018,Maria A. Shchuka,216570
+677,2018,McGregor Park,122591
+678,2018,Mount Dennis,80819
+679,2018,Merril Collection,14550
+680,2018,Mimico Centennial,91352
+681,2018,Mount Pleasant,62333
+682,2018,Maryvale,137412
+683,2018,Morningside,102939
+684,2018,Northern District,373362
+685,2018,Northern Elms,33315
+686,2018,New Toronto,55870
+687,2018,Osborne Collection,19171
+688,2018,Oakwood Village Library and Arts Centre,98891
+689,2018,Pape/Danforth,230567
+690,2018,Perth/Dupont,55219
+691,2018,Parkdale,333245
+692,2018,Parliament Street,225922
+693,2018,Palmerston,103023
+694,2018,Port Union,84874
+695,2018,Pleasant View,66616
+696,2018,Queen/Saulter,68578
+697,2018,Riverdale,180916
+698,2018,Richview,275100
+699,2018,Runnymede,284820
+700,2018,Rexdale,40274
+701,2018,Sanderson,223279
+702,2018,Sunnybrook Hospital,15883
+703,2018,Scarborough Civic Centre,191703
+704,2018,St. James Town,157596
+705,2018,St. Lawrence,117556
+706,2018,Spadina Road,85974
+707,2018,Steeles,55838
+708,2018,Swansea Memorial,20826
+709,2018,S. Walter Stewart,259975
+710,2018,Taylor Memorial,34784
+711,2018,Thorncliffe,194581
+712,2018,Todmorden Room,28888
+713,2018,Toronto Reference Library,1594315
+714,2018,Victoria Village,42043
+715,2018,Weston,91230
+716,2018,Woodview Park,58068
+717,2018,Woodside Square,373195
+718,2018,Wychwood,62229
+719,2018,Yorkville,137585
+720,2018,York Woods,170623
+721,2019,Albion,337559
+722,2019,Albert Campbell,229609
+723,2019,Alderwood,100412
+724,2019,Agincourt,356784
+725,2019,Armour Heights,72816
+726,2019,Annette Street,97246
+727,2019,Amesbury Park,56893
+728,2019,Brookbanks,77106
+729,2019,Black Creek,107777
+730,2019,Bendale,48541
+731,2019,Beaches,198067
+732,2019,Barbara Frum,235589
+733,2019,Bookmobile One,12221
+734,2019,Bloor/Gladstone,363692
+735,2019,Brentwood,205226
+736,2019,Bridlewood,404356
+737,2019,Burrows Hall,85122
+738,2019,Cliffcrest,67906
+739,2019,Centennial,134067
+740,2019,Cedarbrae,355086
+741,2019,City Hall,202935
+742,2019,North York Central Library,1398539
+743,2019,College/Shaw,103210
+744,2019,Danforth/Coxwell,166953
+745,2019,Don Mills,212850
+746,2019,Downsview,139493
+747,2019,Deer Park,280295
+748,2019,Dawes Road,88804
+749,2019,Davenport,36185
+750,2019,Dufferin/St. Clair,109667
+751,2019,Eatonville,225560
+752,2019,Elmbrook Park,45225
+753,2019,Evelyn Gregory,43655
+754,2019,Ethennonnhawahstihnen',171685
+755,2019,Eglinton Square,261247
+756,2019,Forest Hill,107435
+757,2019,Fort York,196094
+758,2019,Flemingdon Park,157505
+759,2019,Fairview,514987
+760,2019,Gerrard/Ashdale,100212
+761,2019,Goldhawk Park,153844
+762,2019,Guildwood,26595
+763,2019,Humber Bay,47611
+764,2019,Highland Creek,56329
+765,2019,Hillcrest,110800
+766,2019,High Park,217479
+767,2019,Humber Summit,40175
+768,2019,Humberwood,94909
+769,2019,Jane/Dundas,158197
+770,2019,Jones,75303
+771,2019,Jane/Sheppard,89668
+772,2019,Kennedy/Eglinton,75312
+773,2019,Long Branch,55632
+774,2019,Leaside,157656
+775,2019,Locke,204120
+776,2019,Lillian H. Smith,262069
+777,2019,Main Street,118568
+778,2019,Malvern,275220
+779,2019,Maria A. Shchuka,210369
+780,2019,McGregor Park,120802
+781,2019,Mount Dennis,77877
+782,2019,Merril Collection,10997
+783,2019,Mimico Centennial,85449
+784,2019,Mount Pleasant,61718
+785,2019,Maryvale,126402
+786,2019,Morningside,109795
+787,2019,Northern District,357327
+788,2019,Northern Elms,32994
+789,2019,New Toronto,53786
+790,2019,Osborne Collection,13582
+791,2019,Oakwood Village Library and Arts Centre,99154
+792,2019,Pape/Danforth,215656
+793,2019,Perth/Dupont,52157
+794,2019,Parkdale,181068
+795,2019,Parliament Street,98771
+796,2019,Palmerston,104919
+797,2019,Port Union,82062
+798,2019,Pleasant View,73267
+799,2019,Queen/Saulter,69777
+800,2019,Riverdale,180229
+801,2019,Richview,298478
+802,2019,Runnymede,291820
+803,2019,Rexdale,39099
+804,2019,Sanderson,228261
+805,2019,Sunnybrook Hospital,18103
+806,2019,Scarborough Civic Centre,197245
+807,2019,St. Clair/Silverthorn,10366
+808,2019,St. James Town,182887
+809,2019,St. Lawrence,133158
+810,2019,Spadina Road,85425
+811,2019,Steeles,162606
+812,2019,Swansea Memorial,23836
+813,2019,S. Walter Stewart,247041
+814,2019,Taylor Memorial,26401
+815,2019,Thorncliffe,183994
+816,2019,Todmorden Room,34029
+817,2019,Toronto Reference Library,1507185
+818,2019,Victoria Village,42414
+819,2019,Weston,93178
+820,2019,Woodview Park,65661
+821,2019,Woodside Square,362674
+822,2019,Yorkville,134385
+823,2019,York Woods,134259
+824,2020,Albion,83718
+825,2020,Albert Campbell,1607
+826,2020,Alderwood,20644
+827,2020,Agincourt,81923
+828,2020,Armour Heights,16702
+829,2020,Annette Street,47198
+830,2020,Amesbury Park,19491
+831,2020,Brookbanks,35675
+832,2020,Black Creek,26946
+833,2020,Bendale,20062
+834,2020,Beaches,77328
+835,2020,Barbara Frum,94156
+836,2020,Bookmobile One,4714
+837,2020,Bloor/Gladstone,131749
+838,2020,Brentwood,83955
+839,2020,Bridlewood,84002
+840,2020,Burrows Hall,15949
+841,2020,Cliffcrest,24853
+842,2020,Centennial,52001
+843,2020,Cedarbrae,104056
+844,2020,City Hall,39487
+845,2020,North York Central Library,456052
+846,2020,College/Shaw,40324
+847,2020,Danforth/Coxwell,71877
+848,2020,Don Mills,90920
+849,2020,Downsview,60744
+850,2020,Deer Park,98871
+851,2020,Dawes Road,39629
+852,2020,Davenport,7552
+853,2020,Dufferin/St. Clair,47531
+854,2020,Eatonville,87220
+855,2020,Elmbrook Park,15484
+856,2020,Evelyn Gregory,16214
+857,2020,Ethennonnhawahstihnen',45962
+858,2020,Eglinton Square,68291
+859,2020,Forest Hill,61033
+860,2020,Fort York,65438
+861,2020,Flemingdon Park,41276
+862,2020,Fairview,157316
+863,2020,Gerrard/Ashdale,27205
+864,2020,Goldhawk Park,43959
+865,2020,Guildwood,22876
+866,2020,Humber Bay,9187
+867,2020,Highland Creek,21700
+868,2020,Hillcrest,38782
+869,2020,High Park,89789
+870,2020,Humber Summit,12252
+871,2020,Humberwood,21521
+872,2020,Jane/Dundas,58094
+873,2020,Jones,32163
+874,2020,Jane/Sheppard,38069
+875,2020,Kennedy/Eglinton,28212
+876,2020,Long Branch,25011
+877,2020,Leaside,64348
+878,2020,Locke,81105
+879,2020,Lillian H. Smith,97500
+880,2020,Main Street,55649
+881,2020,Malvern,90922
+882,2020,Maria A. Shchuka,67788
+883,2020,McGregor Park,39622
+884,2020,Mount Dennis,33095
+885,2020,Merril Collection,3060
+886,2020,Mimico Centennial,34626
+887,2020,Mount Pleasant,12178
+888,2020,Maryvale,26320
+889,2020,Morningside,45944
+890,2020,Northern District,85226
+891,2020,Northern Elms,18821
+892,2020,New Toronto,19076
+893,2020,Osborne Collection,6169
+894,2020,Oakwood Village Library and Arts Centre,26462
+895,2020,Pape/Danforth,74252
+896,2020,Perth/Dupont,10486
+897,2020,Parkdale,116458
+898,2020,Parliament Street,78685
+899,2020,Palmerston,54360
+900,2020,Port Union,17303
+901,2020,Pleasant View,27866
+902,2020,Queen/Saulter,13608
+903,2020,Riverdale,41601
+904,2020,Richview,110394
+905,2020,Runnymede,101566
+906,2020,Rexdale,9438
+907,2020,Sanderson,66395
+908,2020,Sunnybrook Hospital,3771
+909,2020,Scarborough Civic Centre,70414
+910,2020,St. Clair/Silverthorn,7623
+911,2020,St. James Town,29787
+912,2020,St. Lawrence,50946
+913,2020,Spadina Road,17355
+914,2020,Steeles,40686
+915,2020,Swansea Memorial,5164
+916,2020,S. Walter Stewart,94272
+917,2020,Taylor Memorial,23725
+918,2020,Thorncliffe,49448
+919,2020,Todmorden Room,7135
+920,2020,Toronto Reference Library,409542
+921,2020,Victoria Village,11850
+922,2020,Weston,44916
+923,2020,Woodview Park,21041
+924,2020,Woodside Square,71640
+925,2020,Yorkville,30268
+926,2020,York Woods,31075
+927,2021,Albion,58083
+928,2021,Albert Campbell,12600
+929,2021,Alderwood,19752
+930,2021,Agincourt,81572
+931,2021,Armour Heights,14409
+932,2021,Annette Street,46034
+933,2021,Amesbury Park,10868
+934,2021,Brookbanks,27562
+935,2021,Black Creek,17520
+936,2021,Bendale,15747
+937,2021,Beaches,61687
+938,2021,Barbara Frum,61848
+939,2021,Bookmobile One,2798
+940,2021,Bloor/Gladstone,85695
+941,2021,Brentwood,70833
+942,2021,Bridlewood,60079
+943,2021,Burrows Hall,7251
+944,2021,Cliffcrest,20072
+945,2021,Centennial,46021
+946,2021,Cedarbrae,74951
+947,2021,North York Central Library,309869
+948,2021,College/Shaw,29450
+949,2021,Danforth/Coxwell,49549
+950,2021,Don Mills,72314
+951,2021,Downsview,51164
+952,2021,Deer Park,81154
+953,2021,Dawes Road,27348
+954,2021,Davenport,2365
+955,2021,Dufferin/St. Clair,36152
+956,2021,Eatonville,67386
+957,2021,Elmbrook Park,13247
+958,2021,Evelyn Gregory,10334
+959,2021,Ethennonnhawahstihnen',46617
+960,2021,Eglinton Square,53252
+961,2021,Forest Hill,38232
+962,2021,Fort York,62604
+963,2021,Flemingdon Park,33758
+964,2021,Fairview,119530
+965,2021,Gerrard/Ashdale,31974
+966,2021,Goldhawk Park,27577
+967,2021,Guildwood,15310
+968,2021,Humber Bay,8097
+969,2021,Highland Creek,20156
+970,2021,Hillcrest,31305
+971,2021,High Park,69732
+972,2021,Humber Summit,11305
+973,2021,Humberwood,12224
+974,2021,Jane/Dundas,43854
+975,2021,Jones,29392
+976,2021,Jane/Sheppard,25861
+977,2021,Kennedy/Eglinton,29577
+978,2021,Long Branch,19250
+979,2021,Leaside,61845
+980,2021,Locke,64678
+981,2021,Lillian H. Smith,75630
+982,2021,Main Street,50037
+983,2021,Malvern,57937
+984,2021,Maria A. Shchuka,42003
+985,2021,McGregor Park,27536
+986,2021,Mount Dennis,30326
+987,2021,Merril Collection,1
+988,2021,Mimico Centennial,28681
+989,2021,Maryvale,24654
+990,2021,Morningside,42315
+991,2021,Northern District,5612
+992,2021,Northern Elms,13698
+993,2021,New Toronto,16522
+994,2021,Osborne Collection,8700
+995,2021,Oakwood Village Library and Arts Centre,5031
+996,2021,Pape/Danforth,51921
+997,2021,Perth/Dupont,8267
+998,2021,Parkdale,82433
+999,2021,Parliament Street,62707
+1000,2021,Palmerston,50269
+1001,2021,Port Union,10688
+1002,2021,Pleasant View,20003
+1003,2021,Queen/Saulter,9916
+1004,2021,Riverdale,5710
+1005,2021,Richview,86957
+1006,2021,Runnymede,92865
+1007,2021,Rexdale,11666
+1008,2021,Sanderson,43987
+1009,2021,Sunnybrook Hospital,787
+1010,2021,Scarborough Civic Centre,45783
+1011,2021,St. Clair/Silverthorn,9327
+1012,2021,St. James Town,11312
+1013,2021,St. Lawrence,47209
+1014,2021,Spadina Road,9654
+1015,2021,Steeles,30057
+1016,2021,S. Walter Stewart,73913
+1017,2021,Taylor Memorial,16047
+1018,2021,Thorncliffe,16877
+1019,2021,Todmorden Room,1296
+1020,2021,Toronto Reference Library,244641
+1021,2021,Victoria Village,10639
+1022,2021,Weston,28589
+1023,2021,Woodview Park,12922
+1024,2021,Woodside Square,51362
+1025,2021,Yorkville,25840
+1026,2021,York Woods,25317
+1027,2022,Albion,191320
+1028,2022,Albert Campbell,59881
+1029,2022,Alderwood,47658
+1030,2022,Agincourt,137685
+1031,2022,Armour Heights,18416
+1032,2022,Annette Street,43257
+1033,2022,Amesbury Park,28006
+1034,2022,Brookbanks,54070
+1035,2022,Black Creek,43995
+1036,2022,Bendale,29668
+1037,2022,Beaches,122734
+1038,2022,Barbara Frum,142752
+1039,2022,Bookmobile One,9356
+1040,2022,Bloor/Gladstone,202438
+1041,2022,Brentwood,133221
+1042,2022,Bridlewood,199345
+1043,2022,Burrows Hall,34835
+1044,2022,Cliffcrest,44702
+1045,2022,Centennial,95026
+1046,2022,Cedarbrae,187054
+1047,2022,City Hall,58226
+1048,2022,North York Central Library,827795
+1049,2022,College/Shaw,54432
+1050,2022,Danforth/Coxwell,92387
+1051,2022,Don Mills,146812
+1052,2022,Downsview,116686
+1053,2022,Deer Park,165101
+1054,2022,Dawes Road,43606
+1055,2022,Davenport,13947
+1056,2022,Dufferin/St. Clair,71848
+1057,2022,Eatonville,137873
+1058,2022,Elmbrook Park,21786
+1059,2022,Evelyn Gregory,18450
+1060,2022,Ethennonnhawahstihnen',100183
+1061,2022,Eglinton Square,137717
+1062,2022,Forest Hill,72570
+1063,2022,Fort York,122233
+1064,2022,Flemingdon Park,93145
+1065,2022,Fairview,295488
+1066,2022,Gerrard/Ashdale,42256
+1067,2022,Goldhawk Park,41524
+1068,2022,Guildwood,27047
+1069,2022,Humber Bay,23300
+1070,2022,Highland Creek,33550
+1071,2022,Hillcrest,50693
+1072,2022,High Park,106896
+1073,2022,Humber Summit,20197
+1074,2022,Humberwood,29417
+1075,2022,Jane/Dundas,87567
+1076,2022,Jones,41781
+1077,2022,Jane/Sheppard,55649
+1078,2022,Kennedy/Eglinton,75654
+1079,2022,Long Branch,30760
+1080,2022,Leaside,107068
+1081,2022,Locke,68641
+1082,2022,Lillian H. Smith,169226
+1083,2022,Main Street,88269
+1084,2022,Malvern,134121
+1085,2022,Maria A. Shchuka,105100
+1086,2022,McGregor Park,51954
+1087,2022,Mount Dennis,72801
+1088,2022,Merril Collection,6998
+1089,2022,Mimico Centennial,55676
+1090,2022,Maryvale,79733
+1091,2022,Morningside,80008
+1092,2022,Northern District,234291
+1093,2022,Northern Elms,22338
+1094,2022,New Toronto,29806
+1095,2022,Osborne Collection,15630
+1096,2022,Oakwood Village Library and Arts Centre,51839
+1097,2022,Pape/Danforth,125371
+1098,2022,Perth/Dupont,24922
+1099,2022,Parkdale,189577
+1100,2022,Parliament Street,134804
+1101,2022,Palmerston,81764
+1102,2022,Port Union,39945
+1103,2022,Pleasant View,33177
+1104,2022,Queen/Saulter,39625
+1105,2022,Riverdale,91701
+1106,2022,Richview,179693
+1107,2022,Runnymede,175890
+1108,2022,Rexdale,20128
+1109,2022,Sanderson,90084
+1110,2022,Sunnybrook Hospital,6869
+1111,2022,Scarborough Civic Centre,115726
+1112,2022,St. Clair/Silverthorn,20273
+1113,2022,St. James Town,71045
+1114,2022,St. Lawrence,68345
+1115,2022,Spadina Road,37150
+1116,2022,Steeles,68224
+1117,2022,Swansea Memorial,7707
+1118,2022,S. Walter Stewart,162852
+1119,2022,Taylor Memorial,23011
+1120,2022,Thorncliffe,77271
+1121,2022,Todmorden Room,14260
+1122,2022,Toronto Reference Library,745217
+1123,2022,Victoria Village,19859
+1124,2022,Weston,73630
+1125,2022,Woodview Park,28304
+1126,2022,Woodside Square,163061
+1127,2022,Wychwood,37001
+1128,2022,Yorkville,75390
+1129,2022,York Woods,69116

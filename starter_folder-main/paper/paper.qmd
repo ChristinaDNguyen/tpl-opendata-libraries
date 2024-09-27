@@ -1,0 +1,245 @@
+---
+title: "Analyzing Visitor Trends at Toronto Public Library Branches (2012 - 2022):"
+subtitle: "possible insights into community engagement for strategic resource allocation"
+execute:
+  echo: false
+author: 
+  - Christina Nguyen
+thanks: "This code and data are available at: https://github.com/ChristinaDNguyen/tpl-opendata-libraries"
+date: today
+date-format: long
+abstract: "This paper analyzes the visitation trends of Toronto Public Library (TPL)'s branches from 2012 through to 2022 as a base to understand community engagement and resource utilization. We identify patterns in branch usage, highlighting significant fluctuations and growth areas. The findings can be used by administrators and community engagement planners to inform strategic decisions about resource allocation and service improvement. Ultimately, this research can enhance the TPL's ability to meet the evolving needs of its diverse user base."
+
+format: pdf
+number-sections: true
+bibliography: references.bib
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+#| echo: false
+
+library(tidyverse)
+library(here)
+library(knitr)
+library(flextable)
+
+```
+
+
+# Introduction 
+
+The Toronto Public Library (TPL) system has over 100 branches, which serve as vital hubs for community engagement, information access, and public services. Given the size of this urban library system and its role in supporting the diverse needs of Toronto's population, understanding how patrons use these branches is key to effective resource allocation, program development, and long-term planning. However, while the annual collection of visit data offers a wealth of information, there remains a large gap in understanding why certain branches experience more or less traffic, and how external factors such as demographic shifts, neighborhood developments, and public transportation access can influence branch visits. Filling this gap provides a deeper, comprehensive view of how library services can adapt to meet the evolving needs of Toronto’s communities. This paper 
+sets the foundation for that type of community-focused research.
+
+With sensors at the entrances and exits, each TPL branch collected data about how many visits they received annually, from 2012 to 2022.  The visits were based on entries only, and may have counted the same person multiple times per day if they left and re-entered the branch [@OpenDataToronto]. Several other data collection factors can affect the analysis of this data, which is discussed in the [Data collection considerations](#considerations) section of this paper. This data helps TPL better service patrons, by understanding which branches get more or less traffic and which trends may emerge over time (for example, in the course of one decade). R is used to process and present the data [@R]. 
+
+In the [data section below](#sec-data), I explored the annual visits to Toronto Public Library (TPL) branches from 2012 to 2022, with a focus on making the data usable and informative. Initially, the raw data from Open Data Toronto was  by replacing branch code abbreviations with their full names using a reference dataset. I then conducted a comprehensive examination of library engagement by calculating total visits per branch over the entire decade, identifying the top and bottom ten branches in terms of cumulative visits. Further, I computed key summary statistics — mean, median, mode, and standard deviation of visits for each branch — giving insights into overall performance and trends. Graphs were made to illustrate the mean and median visits, along with standard deviation as error bars, allowing for a better understanding of branch usage variability and helping inform resource allocation for library administration.
+
+
+# Data {#sec-data}
+
+The data comes from Open Data Toronto [@OpenDataToronto], which hosts official open data from city divisions and agencies. This particular data measures the number of visits to each branch per year. 
+
+## Total visits per branch
+
+First, we calculate the total number of visits per branch over all the years from 2012 - 2022. That is, how many visits did Albion have over the 10 years? How many visits did Agincourt have over the 10 years? and vice versa, for all branches. See Table 1 below.
+
+```{r}
+#| echo: false
+raw_data <- read_csv("../data/raw_data/raw_data.csv")
+raw_data
+
+
+
+# Rename the headings of each column in the tibble, to more useful headings.
+
+cleaned_data <- raw_data %>%
+  rename(
+    RowID = `_id`,       # Rename '_ID' to 'RowID'
+    Year = Year,      # Keep 'Year' as 'Year'
+    BranchName = BranchCode, # Rename 'BranchCode' to 'BranchName'
+    AnnualNumberofVisits = Visits   # Rename 'Visits' to 'AnnualNumberofVisits'
+  ) 
+cleaned_data 
+
+library(dplyr)
+total_visits_per_branch <- cleaned_data %>%
+  group_by(BranchName) %>%
+  summarise(TotalVisits = sum(AnnualNumberofVisits, na.rm = TRUE)) %>%
+  arrange(desc(TotalVisits))
+
+library(flextable)
+
+ftmain <- flextable(total_visits_per_branch) %>%
+  set_caption("Table 1: Total Visits per Branch")
+ftmain
+
+```
+
+In this two-column table, we see the name of the branch on the left, and the total number of visits it had over the ten years on the right. Below the table is readjusted into two smaller tables, one to display the top 10 most visited libraries, and one to display the bottom 10 most visited libraries.
+
+```{r}
+
+#| echo: false
+
+top_10_visits_per_branch <- total_visits_per_branch %>%
+  slice_head(n = 10) 
+top_10_visits_per_branch
+
+library(flextable)
+
+ft1of2 <- flextable(top_10_visits_per_branch) %>%
+  set_caption("Table 2: Top 10 branches by total number of visits, 2012 - 2022")
+ft1of2
+
+
+```
+
+```{r}
+
+#| echo: false
+
+bottom_10_visits_per_branch <- total_visits_per_branch %>%
+  slice_tail(n=10)
+bottom_10_visits_per_branch
+
+ft2of2 <- flextable(bottom_10_visits_per_branch) %>%
+  set_caption("Table 3: Bottom 10 branches by total  number of visits, 2012 - 2022 ")
+ft2of2
+```
+
+## Mean, median, mode, and standard deviations of branch visits
+
+```{r}
+#| echo: false
+
+library(dplyr)
+get_mode <- function(x) {
+  uniq_x <- unique(x) 
+  uniq_x[which.max(tabulate(match(x, uniq_x)))]  # Return the mode here
+}
+
+branch_summary_statistics <- cleaned_data %>%
+  group_by(BranchName) %>%
+  summarise(
+    MeanVisits = mean(AnnualNumberofVisits, na.rm = TRUE),
+    MedianVisits = median(AnnualNumberofVisits, na.rm = TRUE),
+    ModeVisits = get_mode(AnnualNumberofVisits),
+    StdDevVisits = sd(AnnualNumberofVisits, na.rm = TRUE)
+  )
+
+branch_summary_statistics #Table 4 shown below has the mean, median, mode and SD for the PDF.
+
+ftsummary <- flextable(branch_summary_statistics) %>%
+  set_caption("Table 4: Summary statistics across all TPL branches")
+ftsummary
+
+```
+
+From these summary statistics, we can create two smaller graphs; the first, to look at mean and median (Figure 1); the second, to look at mean and standard deviation (Figure 2).
+
+```{r}
+#| echo: false
+
+mean_and_median_graph <- ggplot(branch_summary_statistics, aes(x = reorder(BranchName, -MeanVisits))) +
+  geom_bar(aes(y = MeanVisits), stat = "identity", fill = "steelblue", alpha = 0.6) +
+  geom_point(aes(y = MedianVisits), color = "orange", size = 3) +
+  labs(title = "Figure 1: Mean, Median, and Mode Annual Visits per Library Branch",
+       x = "Library Branch",
+       y = "Number of Visits") +
+  scale_y_continuous(sec.axis = sec_axis(~ ., name = "Number of Visits")) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  theme_minimal() +
+  geom_errorbar(aes(ymin = MeanVisits - StdDevVisits, ymax = MeanVisits + StdDevVisits), 
+                width = 0.2, color = "red", position = position_dodge(0.9))
+
+mean_and_median_graph
+
+```
+Given the graph above, mean_and_median_graph, most library branches visually 
+have medians (orange dots) close to the mean (blue bars). Only two branches
+have means significantly higher than the median, i.e. the two leftmost 
+branches on the graph. The labels on the x-axis are difficult to read due to 
+the large number of library branches, so we check: in the dataset, those two 
+branches are Toronto Reference Library and and North York Central Library.
+That means that, for TRL and NYCL, some years had exceptionally higher
+visits. To verify, let us look at our second graph, the one with standard
+deviation alongside the mean:
+
+```{r}
+#| echo: false
+
+sd_graph <- ggplot(branch_summary_statistics, aes(x = reorder(BranchName, -MeanVisits), y = MeanVisits)) +
+  geom_bar(stat = "identity", fill = "steelblue", alpha = 0.6) +
+  geom_errorbar(aes(ymin = MeanVisits - StdDevVisits, ymax = MeanVisits + StdDevVisits), 
+                width = 0.2, color = "red") +
+  labs(title = "Figure 2: Mean Annual Visits per Library Branch with Standard Deviation",
+       x = "Library Branch",
+       y = "Mean Annual Visits") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  theme_minimal()
+sd_graph 
+```
+
+We can see that the leftmost two branches, as we noticed earlier
+in the mean/median comparison, shows a high amount of variation in the number of annual visits (the red bar is comparatively large for these two, when looking at the rest of the branches). 
+
+# Discussion
+
+To contextualize the public library visitation data with external factors, we need to consider several key influences, such as population growth, local events, and policy changes. These factors can heavily impact how many visitors each branch gets over time, shaping trends across the library system.
+
+## 1. Population growth and demographics:
+Branches in areas with rapid population growth are likely to experience higher visitation. Libraries like North York Central and Toronto Reference Library have high visitation, possibly due to their location in densely populated neighborhoods or regions undergoing urban development [@FindYourNeighbourhood]. As new housing developments emerge, so does the demand for community resources like libraries [@IFLA].
+
+North York Central Library: This area has seen significant urban growth and development in recent years, contributing to the branch's high visitor numbers, as evidenced by a mean of over 1 million visits per year. Agincourt likewise is located in a growing region; it sees over 300,000 visits annually, likely reflecting the increasing residential density [@FindYourNeighbourhood].
+
+## 2. Local events and community programming:
+Local events and library-specific programs, such as workshops, author talks, and literacy initiatives, can directly affect library traffic. For example: branches like Bloor/Gladstone or Barbara Frum likely benefit from their robust community programming, driving higher foot traffic and frequent use of services. This is reflected in their respective mean visits of over 303,237 and 236,628.
+
+Despite being a newer library (it opened in 2015), Scarborough Civic Centre Library has local events (like afterschool programs, "Toronto Book Awards Celebrate Scarborough", etc.) and its central location in a busy civic area likely has increased visits, with a mean of about 134,125 visitors annually.
+
+## 3. Policy changes and budget allocations:
+
+Libraries are impacted by policies at multiple levels of government. This includes city budget allocations, staffing decisions, and priorities for library services. Specifically, Toronto Public Library's operations are overseen by the Toronto Public Library Board, plus city council has significant input into its funding. Policy decisions on library hours, the number of staff, and digital service expansions can directly affect visitation.
+
+Importantly, Toronto City Council set budgets that affect the library's ability to operate efficiently. Cuts in funding may result in shorter hours or fewer programs, leading to a reduction in visits as service decreases. Conversely, budget increases can improve services, leading to higher engagement and foot traffic. Further querying from several data sources can identify trends and develop hypotheses around this relationship.
+
+Further, the Ontario Ministry of Heritage, Sport, Tourism and Culture Industries oversees library development at the provincial level, affecting funding streams for infrastructure, technology grants, or literacy programs [@Ontariopubliclibraries]. If there are shifts in provincial funding priorities, certain branches may experience either growth or decline in visitation.
+
+## 4. Digital vs. physical use:
+With an increasing shift toward digital resources, some branches may see lower physical foot traffic but high engagement online. The Toronto Reference Library serves as a major hub for digital services, reflected in its role as a research center. However, it still impressively maintains over 1 million annual physical visits.
+
+## 5. Cultural and economic factors:
+Economic conditions also play a role in the number of TPL  visits. During economic downturns, libraries often see a spike in visitors as people rely on free resources, whether for job searches, internet access, or entertainment [@Risingtothechallenge]. In contrast, economic growth may lead to changes in how libraries are used, with more digital borrowing and fewer physical visits.
+
+# Summary:
+
+## Trends in the larger context
+
+The trends in library visitation data are quite possibly shaped by a combination of external factors, including population growth and urban development in certain neighborhoods, which can contribute to higher visitor counts in major branches. Local events and library programming also play a significant role in driving visitation, with branches hosting frequent community events likely to be seeing higher numbers.
+Policies from city and provincial governments affect operational funding and services, influencing how many people can access and benefit from libraries. Plus, economic shifts and cultural preferences, such as the rise in digital service usage, also shape visitation patterns across different branches.
+
+To fully understand these observed patterns and to validate these theories of correlation, it would be useful to analyze community feedback (through targeted surveys), [@Metrics] and evaluate the effectiveness of current services (using metrics like program attendance rates, customer satisfaction surveys, and feedback forms).
+
+
+## Data collection considerations and next steps {#considerations}
+
+In the realm of public library engagement, data collection plays a pivotal role in understanding user interactions and informing decision-making processes, particularly in a large urban system like the TPL. However, it is crucial to recognize that the metrics collected do not encapsulate the full spectrum of library engagement. For instance, a decline in physical visits over a ten-year period of 2012 - 2022 does not inherently signify a downturn in library performance or user engagement. Instead, it may reflect broader societal trends, such as the increasing prevalence of digital resources and remote access options, which can enhance accessibility and convenience for patrons. In fact, relying solely on physical visit statistics can yield a skewed understanding of how libraries are fulfilling their mission to serve and educate the community.
+
+Future research should seek to explore these nuanced aspects of library engagement by employing a more comprehensive data collection approach. This could include qualitative methods such as user surveys, focus groups, and interviews to capture patron experiences and perceptions regarding library services. Furthermore, integrating usage data from digital platforms and analyzing trends in remote engagement can provide a more holistic view of library impact. By broadening the scope of data collection, libraries can better understand the changing needs of their communities and adapt their services accordingly, ultimately fostering a more engaged and informed user base.
+
+
+\newpage
+
+
+<!-- # References are put into a seperate file called references.bib, and called up -->
+<!-- # here in this Quarto paper using the @referencename. -->
+
+<!-- # You can reformat code by selecting all the code and clicking CTRL+SHIFT+A -->
+<!-- # Render the PDF from this Quarto by clicking "Render" on the top of the code -->
+<!-- # window. -->
+
+# References
